@@ -4,24 +4,24 @@ import React from "react";
 const Header = () => {
     return (
         <>
-            <header id="header" class="fixed-top">
-                <div class="container-fluid d-flex">
+            <header id="header" className="fixed-top">
+                <div className="container-fluid d-flex">
 
-                    <div class="logo mr-auto">
-                        <h1 class="text-light"><a href="index.html"><span>Ninestars</span></a></h1>
+                    <div className="logo mr-auto">
+                        <h1 className="text-light"><a href="index.html"><span>Ninestars</span></a></h1>
                     </div>
 
-                    <nav class="nav-menu d-none d-lg-block">
+                    <nav className="nav-menu d-none d-lg-block">
                         <ul>
-                            <li class="active"><a href="index.html">Home</a></li>
+                            <li className="active"><a href="index.html">Home</a></li>
                             <li><a href="#about">About Us</a></li>
                             <li><a href="#services">Services</a></li>
                             <li><a href="#portfolio">Portfolio</a></li>
                             <li><a href="#team">Team</a></li>
-                            <li class="drop-down"><a href="">Drop Down</a>
+                            <li className="drop-down"><a href="">Drop Down</a>
                                 <ul>
                                     <li><a href="#">Drop Down 1</a></li>
-                                    <li class="drop-down"><a href="#">Drop Down 2</a>
+                                    <li className="drop-down"><a href="#">Drop Down 2</a>
                                         <ul>
                                             <li><a href="#">Deep Drop Down 1</a></li>
                                             <li><a href="#">Deep Drop Down 2</a></li>
@@ -37,7 +37,7 @@ const Header = () => {
                             </li>
                             <li><a href="#contact">Contact Us</a></li>
 
-                            <li class="get-started"><a href="#about">Get Started</a></li>
+                            <li className="get-started"><a href="#about">Get Started</a></li>
                         </ul>
                     </nav>
 

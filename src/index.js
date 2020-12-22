@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import './img/favicon.png'
+import './img/apple-touch-icon.png'
 import './vendor/bootstrap/css/bootstrap.min.css'
 import './vendor/icofont/icofont.min.css'
 import './vendor/boxicons/css/boxicons.min.css'
