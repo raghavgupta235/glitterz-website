@@ -10,7 +10,7 @@ const Main = () => {
 
                         <div className="row justify-content-between">
                             <div className="col-lg-5 d-flex align-items-center justify-content-center about-img">
-                                <img src="assets/img/about-img.svg" className="img-fluid" alt="" data-aos="zoom-in" />
+                                <img src="img/about-img.svg" className="img-fluid" alt="" data-aos="zoom-in" />
                             </div>
                             <div className="col-lg-6 pt-5 pt-lg-0">
                                 <h3 >Voluptatem dignissimos provident quasi</h3>
@@ -104,9 +104,9 @@ const Main = () => {
 
                             <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                                 <div className="portfolio-wrap">
-                                    <img src="assets/img/portfolio/portfolio-1.jpg" className="img-fluid" alt="" />
+                                    <img src="img/portfolio/portfolio-1.jpg" className="img-fluid" alt="" />
                                     <div className="portfolio-links">
-                                        <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" className="venobox" title="App 1"><i className="icofont-plus-circle"></i></a>
+                                        <a href="img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" className="venobox" title="App 1"><i className="icofont-plus-circle"></i></a>
                                         <a href="portfolio-details.html" title="More Details"><i className="icofont-link"></i></a>
                                     </div>
                                     <div className="portfolio-info">
@@ -118,9 +118,9 @@ const Main = () => {
 
                             <div className="col-lg-4 col-md-6 portfolio-item filter-web">
                                 <div className="portfolio-wrap">
-                                    <img src="assets/img/portfolio/portfolio-2.jpg" className="img-fluid" alt="" />
+                                    <img src="img/portfolio/portfolio-2.jpg" className="img-fluid" alt="" />
                                     <div className="portfolio-links">
-                                        <a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" className="venobox" title="Web 3"><i className="icofont-plus-circle"></i></a>
+                                        <a href="img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" className="venobox" title="Web 3"><i className="icofont-plus-circle"></i></a>
                                         <a href="portfolio-details.html" title="More Details"><i className="icofont-link"></i></a>
                                     </div>
                                     <div className="portfolio-info">
@@ -132,9 +132,9 @@ const Main = () => {
 
                             <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                                 <div className="portfolio-wrap">
-                                    <img src="assets/img/portfolio/portfolio-3.jpg" className="img-fluid" alt="" />
+                                    <img src="img/portfolio/portfolio-3.jpg" className="img-fluid" alt="" />
                                     <div className="portfolio-links">
-                                        <a href="assets/img/portfolio/portfolio-3.jpg" data-gall="portfolioGallery" className="venobox" title="App 2"><i className="icofont-plus-circle"></i></a>
+                                        <a href="img/portfolio/portfolio-3.jpg" data-gall="portfolioGallery" className="venobox" title="App 2"><i className="icofont-plus-circle"></i></a>
                                         <a href="portfolio-details.html" title="More Details"><i className="icofont-link"></i></a>
                                     </div>
                                     <div className="portfolio-info">
@@ -146,9 +146,9 @@ const Main = () => {
 
                             <div className="col-lg-4 col-md-6 portfolio-item filter-card">
                                 <div className="portfolio-wrap">
-                                    <img src="assets/img/portfolio/portfolio-4.jpg" className="img-fluid" alt="" />
+                                    <img src="img/portfolio/portfolio-4.jpg" className="img-fluid" alt="" />
                                     <div className="portfolio-links">
-                                        <a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" className="venobox" title="Card 2"><i className="icofont-plus-circle"></i></a>
+                                        <a href="img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" className="venobox" title="Card 2"><i className="icofont-plus-circle"></i></a>
                                         <a href="portfolio-details.html" title="More Details"><i className="icofont-link"></i></a>
                                     </div>
                                     <div className="portfolio-info">
@@ -160,9 +160,9 @@ const Main = () => {
 
                             <div className="col-lg-4 col-md-6 portfolio-item filter-web">
                                 <div className="portfolio-wrap">
-                                    <img src="assets/img/portfolio/portfolio-5.jpg" className="img-fluid" alt="" />
+                                    <img src="img/portfolio/portfolio-5.jpg" className="img-fluid" alt="" />
                                     <div className="portfolio-links">
-                                        <a href="assets/img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery" className="venobox" title="Web 2"><i className="icofont-plus-circle"></i></a>
+                                        <a href="img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery" className="venobox" title="Web 2"><i className="icofont-plus-circle"></i></a>
                                         <a href="portfolio-details.html" title="More Details"><i className="icofont-link"></i></a>
                                     </div>
                                     <div className="portfolio-info">
@@ -174,9 +174,9 @@ const Main = () => {
 
                             <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                                 <div className="portfolio-wrap">
-                                    <img src="assets/img/portfolio/portfolio-6.jpg" className="img-fluid" alt="" />
+                                    <img src="img/portfolio/portfolio-6.jpg" className="img-fluid" alt="" />
                                     <div className="portfolio-links">
-                                        <a href="assets/img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery" className="venobox" title="App 3"><i className="icofont-plus-circle"></i></a>
+                                        <a href="img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery" className="venobox" title="App 3"><i className="icofont-plus-circle"></i></a>
                                         <a href="portfolio-details.html" title="More Details"><i className="icofont-link"></i></a>
                                     </div>
                                     <div className="portfolio-info">
@@ -188,9 +188,9 @@ const Main = () => {
 
                             <div className="col-lg-4 col-md-6 portfolio-item filter-card">
                                 <div className="portfolio-wrap">
-                                    <img src="assets/img/portfolio/portfolio-7.jpg" className="img-fluid" alt="" />
+                                    <img src="img/portfolio/portfolio-7.jpg" className="img-fluid" alt="" />
                                     <div className="portfolio-links">
-                                        <a href="assets/img/portfolio/portfolio-7.jpg" data-gall="portfolioGallery" className="venobox" title="Card 1"><i className="icofont-plus-circle"></i></a>
+                                        <a href="img/portfolio/portfolio-7.jpg" data-gall="portfolioGallery" className="venobox" title="Card 1"><i className="icofont-plus-circle"></i></a>
                                         <a href="portfolio-details.html" title="More Details"><i className="icofont-link"></i></a>
                                     </div>
                                     <div className="portfolio-info">
@@ -202,9 +202,9 @@ const Main = () => {
 
                             <div className="col-lg-4 col-md-6 portfolio-item filter-card">
                                 <div className="portfolio-wrap">
-                                    <img src="assets/img/portfolio/portfolio-8.jpg" className="img-fluid" alt="" />
+                                    <img src="img/portfolio/portfolio-8.jpg" className="img-fluid" alt="" />
                                     <div className="portfolio-links">
-                                        <a href="assets/img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery" className="venobox" title="Card 3"><i className="icofont-plus-circle"></i></a>
+                                        <a href="img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery" className="venobox" title="Card 3"><i className="icofont-plus-circle"></i></a>
                                         <a href="portfolio-details.html" title="More Details"><i className="icofont-link"></i></a>
                                     </div>
                                     <div className="portfolio-info">
@@ -216,9 +216,9 @@ const Main = () => {
 
                             <div className="col-lg-4 col-md-6 portfolio-item filter-web">
                                 <div className="portfolio-wrap">
-                                    <img src="assets/img/portfolio/portfolio-9.jpg" className="img-fluid" alt="" />
+                                    <img src="img/portfolio/portfolio-9.jpg" className="img-fluid" alt="" />
                                     <div className="portfolio-links">
-                                        <a href="assets/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" className="venobox" title="Web 3"><i className="icofont-plus-circle"></i></a>
+                                        <a href="img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" className="venobox" title="Web 3"><i className="icofont-plus-circle"></i></a>
                                         <a href="portfolio-details.html" title="More Details"><i className="icofont-link"></i></a>
                                     </div>
                                     <div className="portfolio-info">
@@ -314,7 +314,7 @@ const Main = () => {
 
                             <div className="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
                                 <div className="member">
-                                    <img src="assets/img/team/team-1.jpg" className="img-fluid" alt="" />
+                                    <img src="img/team/team-1.jpg" className="img-fluid" alt="" />
                                     <div className="member-info">
                                         <div className="member-info-content">
                                             <h4>Walter White</h4>
@@ -332,7 +332,7 @@ const Main = () => {
 
                             <div className="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
                                 <div className="member">
-                                    <img src="assets/img/team/team-2.jpg" className="img-fluid" alt="" />
+                                    <img src="img/team/team-2.jpg" className="img-fluid" alt="" />
                                     <div className="member-info">
                                         <div className="member-info-content">
                                             <h4>Sarah Jhonson</h4>
@@ -350,7 +350,7 @@ const Main = () => {
 
                             <div className="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
                                 <div className="member">
-                                    <img src="assets/img/team/team-3.jpg" className="img-fluid" alt="" />
+                                    <img src="img/team/team-3.jpg" className="img-fluid" alt="" />
                                     <div className="member-info">
                                         <div className="member-info-content">
                                             <h4>William Anderson</h4>
@@ -368,7 +368,7 @@ const Main = () => {
 
                             <div className="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
                                 <div className="member">
-                                    <img src="assets/img/team/team-4.jpg" className="img-fluid" alt="" />
+                                    <img src="img/team/team-4.jpg" className="img-fluid" alt="" />
                                     <div className="member-info">
                                         <div className="member-info-content">
                                             <h4>Amanda Jepson</h4>
@@ -398,14 +398,14 @@ const Main = () => {
                         </div>
 
                         <div className="owl-carousel clients-carousel"  data-aos-delay="100">
-                            <img src="assets/img/clients/client-1.png" alt="" />
-                            <img src="assets/img/clients/client-2.png" alt="" />
-                            <img src="assets/img/clients/client-3.png" alt="" />
-                            <img src="assets/img/clients/client-4.png" alt="" />
-                            <img src="assets/img/clients/client-5.png" alt="" />
-                            <img src="assets/img/clients/client-6.png" alt="" />
-                            <img src="assets/img/clients/client-7.png" alt="" />
-                            <img src="assets/img/clients/client-8.png" alt="" />
+                            <img src="img/clients/client-1.png" alt="" />
+                            <img src="img/clients/client-2.png" alt="" />
+                            <img src="img/clients/client-3.png" alt="" />
+                            <img src="img/clients/client-4.png" alt="" />
+                            <img src="img/clients/client-5.png" alt="" />
+                            <img src="img/clients/client-6.png" alt="" />
+                            <img src="img/clients/client-7.png" alt="" />
+                            <img src="img/clients/client-8.png" alt="" />
                         </div>
 
                     </div>
