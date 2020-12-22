@@ -1,6 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import './vendor/bootstrap/css/bootstrap.min.css'
+import './vendor/icofont/icofont.min.css'
+import './vendor/boxicons/css/boxicons.min.css'
+import './vendor/venobox/venobox.css'
+import './vendor/owl.carousel/assets/owl.carousel.min.css'
+import './vendor/aos/aos.css'
+import './css/style.css'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
