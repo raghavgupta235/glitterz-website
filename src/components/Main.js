@@ -47,7 +47,7 @@ const Main = () => {
                             <div className="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
                                 <div className="icon-box">
                                     <div className="icon"><i className="bx bxl-dribbble"></i></div>
-                                    <h4 className="title"><a href="">Lorem Ipsum</a></h4>
+                                    <h4 className="title"><a href="/">Lorem Ipsum</a></h4>
                                     <p className="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate</p>
                                 </div>
                             </div>
@@ -55,7 +55,7 @@ const Main = () => {
                             <div className="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="200">
                                 <div className="icon-box">
                                     <div className="icon"><i className="bx bx-file"></i></div>
-                                    <h4 className="title"><a href="">Sed ut perspiciatis</a></h4>
+                                    <h4 className="title"><a href="/">Sed ut perspiciatis</a></h4>
                                     <p className="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla</p>
                                 </div>
                             </div>
@@ -63,7 +63,7 @@ const Main = () => {
                             <div className="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="300">
                                 <div className="icon-box">
                                     <div className="icon"><i className="bx bx-tachometer"></i></div>
-                                    <h4 className="title"><a href="">Magni Dolores</a></h4>
+                                    <h4 className="title"><a href="/">Magni Dolores</a></h4>
                                     <p className="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</p>
                                 </div>
                             </div>
@@ -71,7 +71,7 @@ const Main = () => {
                             <div className="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="400">
                                 <div className="icon-box">
                                     <div className="icon"><i className="bx bx-world"></i></div>
-                                    <h4 className="title"><a href="">Nemo Enim</a></h4>
+                                    <h4 className="title"><a href="/">Nemo Enim</a></h4>
                                     <p className="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
                                 </div>
                             </div>
@@ -321,10 +321,10 @@ const Main = () => {
                                             <span>Chief Executive Officer</span>
                                         </div>
                                         <div className="social">
-                                            <a href=""><i className="icofont-twitter"></i></a>
-                                            <a href=""><i className="icofont-facebook"></i></a>
-                                            <a href=""><i className="icofont-instagram"></i></a>
-                                            <a href=""><i className="icofont-linkedin"></i></a>
+                                            <a href="/"><i className="icofont-twitter"></i></a>
+                                            <a href="/"><i className="icofont-facebook"></i></a>
+                                            <a href="/"><i className="icofont-instagram"></i></a>
+                                            <a href="/"><i className="icofont-linkedin"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -339,10 +339,10 @@ const Main = () => {
                                             <span>Product Manager</span>
                                         </div>
                                         <div className="social">
-                                            <a href=""><i className="icofont-twitter"></i></a>
-                                            <a href=""><i className="icofont-facebook"></i></a>
-                                            <a href=""><i className="icofont-instagram"></i></a>
-                                            <a href=""><i className="icofont-linkedin"></i></a>
+                                            <a href="/"><i className="icofont-twitter"></i></a>
+                                            <a href="/"><i className="icofont-facebook"></i></a>
+                                            <a href="/"><i className="icofont-instagram"></i></a>
+                                            <a href="/"><i className="icofont-linkedin"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -357,10 +357,10 @@ const Main = () => {
                                             <span>CTO</span>
                                         </div>
                                         <div className="social">
-                                            <a href=""><i className="icofont-twitter"></i></a>
-                                            <a href=""><i className="icofont-facebook"></i></a>
-                                            <a href=""><i className="icofont-instagram"></i></a>
-                                            <a href=""><i className="icofont-linkedin"></i></a>
+                                            <a href="/"><i className="icofont-twitter"></i></a>
+                                            <a href="/"><i className="icofont-facebook"></i></a>
+                                            <a href="/"><i className="icofont-instagram"></i></a>
+                                            <a href="/"><i className="icofont-linkedin"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -375,10 +375,10 @@ const Main = () => {
                                             <span>Accountant</span>
                                         </div>
                                         <div className="social">
-                                            <a href=""><i className="icofont-twitter"></i></a>
-                                            <a href=""><i className="icofont-facebook"></i></a>
-                                            <a href=""><i className="icofont-instagram"></i></a>
-                                            <a href=""><i className="icofont-linkedin"></i></a>
+                                            <a href="/"><i className="icofont-twitter"></i></a>
+                                            <a href="/"><i className="icofont-facebook"></i></a>
+                                            <a href="/"><i className="icofont-instagram"></i></a>
+                                            <a href="/"><i className="icofont-linkedin"></i></a>
                                         </div>
                                     </div>
                                 </div>
