@@ -1,4 +1,5 @@
-import React from "react";
+import React from 'react';
+import imageResource from '../assests/ImageResources.js'
 
 const Main = () => {
     return (
@@ -10,20 +11,20 @@ const Main = () => {
 
                         <div className="row justify-content-between">
                             <div className="col-lg-5 d-flex align-items-center justify-content-center about-img">
-                                <img src="img/about-img.svg" className="img-fluid" alt="" data-aos="zoom-in" />
+                                <img src={imageResource['aboutUs']} className="img-fluid" alt="" />
                             </div>
                             <div className="col-lg-6 pt-5 pt-lg-0">
                                 <h3 >Voluptatem dignissimos provident quasi</h3>
-                                <p  data-aos-delay="100">
+                                <p data-aos-delay="100">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
             </p>
                                 <div className="row">
-                                    <div className="col-md-6"  data-aos-delay="100">
+                                    <div className="col-md-6" data-aos-delay="100">
                                         <i className="bx bx-receipt"></i>
                                         <h4>Corporis voluptates sit</h4>
                                         <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
                                     </div>
-                                    <div className="col-md-6"  data-aos-delay="200">
+                                    <div className="col-md-6" data-aos-delay="200">
                                         <i className="bx bx-cube-alt"></i>
                                         <h4>Ullamco laboris nisi</h4>
                                         <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
@@ -44,7 +45,7 @@ const Main = () => {
                         </div>
 
                         <div className="row">
-                            <div className="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                            <div className="col-md-6 col-lg-3 d-flex align-items-stretch"  data-aos-delay="100">
                                 <div className="icon-box">
                                     <div className="icon"><i className="bx bxl-dribbble"></i></div>
                                     <h4 className="title"><a href="/">Lorem Ipsum</a></h4>
@@ -52,7 +53,7 @@ const Main = () => {
                                 </div>
                             </div>
 
-                            <div className="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="200">
+                            <div className="col-md-6 col-lg-3 d-flex align-items-stretch"  data-aos-delay="200">
                                 <div className="icon-box">
                                     <div className="icon"><i className="bx bx-file"></i></div>
                                     <h4 className="title"><a href="/">Sed ut perspiciatis</a></h4>
@@ -60,7 +61,7 @@ const Main = () => {
                                 </div>
                             </div>
 
-                            <div className="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="300">
+                            <div className="col-md-6 col-lg-3 d-flex align-items-stretch"  data-aos-delay="300">
                                 <div className="icon-box">
                                     <div className="icon"><i className="bx bx-tachometer"></i></div>
                                     <h4 className="title"><a href="/">Magni Dolores</a></h4>
@@ -68,7 +69,7 @@ const Main = () => {
                                 </div>
                             </div>
 
-                            <div className="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="400">
+                            <div className="col-md-6 col-lg-3 d-flex align-items-stretch"  data-aos-delay="400">
                                 <div className="icon-box">
                                     <div className="icon"><i className="bx bx-world"></i></div>
                                     <h4 className="title"><a href="/">Nemo Enim</a></h4>
@@ -89,7 +90,7 @@ const Main = () => {
                             <p>Check out our beautifull portfolio</p>
                         </div>
 
-                        <div className="row"  data-aos-delay="100">
+                        <div className="row" data-aos-delay="100">
                             <div className="col-lg-12">
                                 <ul id="portfolio-flters">
                                     <li data-filter="*" className="filter-active">All</li>
@@ -100,13 +101,13 @@ const Main = () => {
                             </div>
                         </div>
 
-                        <div className="row portfolio-container"  data-aos-delay="200">
+                        <div className="row portfolio-container" data-aos-delay="200">
 
                             <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                                 <div className="portfolio-wrap">
-                                    <img src="img/portfolio/portfolio-1.jpg" className="img-fluid" alt="" />
+                                    <img src={imageResource['portfolio1']} className="img-fluid" alt="" />
                                     <div className="portfolio-links">
-                                        <a href="img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" className="venobox" title="App 1"><i className="icofont-plus-circle"></i></a>
+                                        <a href={imageResource['portfolio1']} data-gall="portfolioGallery" className="venobox" title="App 1"><i className="icofont-plus-circle"></i></a>
                                         <a href="portfolio-details.html" title="More Details"><i className="icofont-link"></i></a>
                                     </div>
                                     <div className="portfolio-info">
@@ -118,9 +119,9 @@ const Main = () => {
 
                             <div className="col-lg-4 col-md-6 portfolio-item filter-web">
                                 <div className="portfolio-wrap">
-                                    <img src="img/portfolio/portfolio-2.jpg" className="img-fluid" alt="" />
+                                    <img src={imageResource['portfolio2']} className="img-fluid" alt="" />
                                     <div className="portfolio-links">
-                                        <a href="img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" className="venobox" title="Web 3"><i className="icofont-plus-circle"></i></a>
+                                        <a href={imageResource['portfolio2']} data-gall="portfolioGallery" className="venobox" title="Web 3"><i className="icofont-plus-circle"></i></a>
                                         <a href="portfolio-details.html" title="More Details"><i className="icofont-link"></i></a>
                                     </div>
                                     <div className="portfolio-info">
@@ -132,9 +133,9 @@ const Main = () => {
 
                             <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                                 <div className="portfolio-wrap">
-                                    <img src="img/portfolio/portfolio-3.jpg" className="img-fluid" alt="" />
+                                    <img src={imageResource['portfolio3']} className="img-fluid" alt="" />
                                     <div className="portfolio-links">
-                                        <a href="img/portfolio/portfolio-3.jpg" data-gall="portfolioGallery" className="venobox" title="App 2"><i className="icofont-plus-circle"></i></a>
+                                        <a href={imageResource['portfolio3']} data-gall="portfolioGallery" className="venobox" title="App 2"><i className="icofont-plus-circle"></i></a>
                                         <a href="portfolio-details.html" title="More Details"><i className="icofont-link"></i></a>
                                     </div>
                                     <div className="portfolio-info">
@@ -146,9 +147,9 @@ const Main = () => {
 
                             <div className="col-lg-4 col-md-6 portfolio-item filter-card">
                                 <div className="portfolio-wrap">
-                                    <img src="img/portfolio/portfolio-4.jpg" className="img-fluid" alt="" />
+                                    <img src={imageResource['portfolio4']} className="img-fluid" alt="" />
                                     <div className="portfolio-links">
-                                        <a href="img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" className="venobox" title="Card 2"><i className="icofont-plus-circle"></i></a>
+                                        <a href={imageResource['portfolio4']} data-gall="portfolioGallery" className="venobox" title="Card 2"><i className="icofont-plus-circle"></i></a>
                                         <a href="portfolio-details.html" title="More Details"><i className="icofont-link"></i></a>
                                     </div>
                                     <div className="portfolio-info">
@@ -160,9 +161,9 @@ const Main = () => {
 
                             <div className="col-lg-4 col-md-6 portfolio-item filter-web">
                                 <div className="portfolio-wrap">
-                                    <img src="img/portfolio/portfolio-5.jpg" className="img-fluid" alt="" />
+                                    <img src={imageResource['portfolio5']} className="img-fluid" alt="" />
                                     <div className="portfolio-links">
-                                        <a href="img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery" className="venobox" title="Web 2"><i className="icofont-plus-circle"></i></a>
+                                        <a href={imageResource['portfolio5']} data-gall="portfolioGallery" className="venobox" title="Web 2"><i className="icofont-plus-circle"></i></a>
                                         <a href="portfolio-details.html" title="More Details"><i className="icofont-link"></i></a>
                                     </div>
                                     <div className="portfolio-info">
@@ -174,9 +175,9 @@ const Main = () => {
 
                             <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                                 <div className="portfolio-wrap">
-                                    <img src="img/portfolio/portfolio-6.jpg" className="img-fluid" alt="" />
+                                    <img src={imageResource['portfolio6']} className="img-fluid" alt="" />
                                     <div className="portfolio-links">
-                                        <a href="img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery" className="venobox" title="App 3"><i className="icofont-plus-circle"></i></a>
+                                        <a href={imageResource['portfolio6']} data-gall="portfolioGallery" className="venobox" title="App 3"><i className="icofont-plus-circle"></i></a>
                                         <a href="portfolio-details.html" title="More Details"><i className="icofont-link"></i></a>
                                     </div>
                                     <div className="portfolio-info">
@@ -188,9 +189,9 @@ const Main = () => {
 
                             <div className="col-lg-4 col-md-6 portfolio-item filter-card">
                                 <div className="portfolio-wrap">
-                                    <img src="img/portfolio/portfolio-7.jpg" className="img-fluid" alt="" />
+                                    <img src={imageResource['portfolio7']} className="img-fluid" alt="" />
                                     <div className="portfolio-links">
-                                        <a href="img/portfolio/portfolio-7.jpg" data-gall="portfolioGallery" className="venobox" title="Card 1"><i className="icofont-plus-circle"></i></a>
+                                        <a href={imageResource['portfolio7']} data-gall="portfolioGallery" className="venobox" title="Card 1"><i className="icofont-plus-circle"></i></a>
                                         <a href="portfolio-details.html" title="More Details"><i className="icofont-link"></i></a>
                                     </div>
                                     <div className="portfolio-info">
@@ -202,9 +203,9 @@ const Main = () => {
 
                             <div className="col-lg-4 col-md-6 portfolio-item filter-card">
                                 <div className="portfolio-wrap">
-                                    <img src="img/portfolio/portfolio-8.jpg" className="img-fluid" alt="" />
+                                    <img src={imageResource['portfolio8']} className="img-fluid" alt="" />
                                     <div className="portfolio-links">
-                                        <a href="img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery" className="venobox" title="Card 3"><i className="icofont-plus-circle"></i></a>
+                                        <a href={imageResource['portfolio8']} data-gall="portfolioGallery" className="venobox" title="Card 3"><i className="icofont-plus-circle"></i></a>
                                         <a href="portfolio-details.html" title="More Details"><i className="icofont-link"></i></a>
                                     </div>
                                     <div className="portfolio-info">
@@ -216,9 +217,9 @@ const Main = () => {
 
                             <div className="col-lg-4 col-md-6 portfolio-item filter-web">
                                 <div className="portfolio-wrap">
-                                    <img src="img/portfolio/portfolio-9.jpg" className="img-fluid" alt="" />
+                                    <img src={imageResource['portfolio9']} className="img-fluid" alt="" />
                                     <div className="portfolio-links">
-                                        <a href="img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" className="venobox" title="Web 3"><i className="icofont-plus-circle"></i></a>
+                                        <a href={imageResource['portfolio9']} data-gall="portfolioGallery" className="venobox" title="Web 3"><i className="icofont-plus-circle"></i></a>
                                         <a href="portfolio-details.html" title="More Details"><i className="icofont-link"></i></a>
                                     </div>
                                     <div className="portfolio-info">
@@ -243,7 +244,7 @@ const Main = () => {
 
                         <ul className="faq-list">
 
-                            <li  data-aos-delay="100">
+                            <li data-aos-delay="100">
                                 <a data-toggle="collapse" className="" href="#faq1">Non consectetur a erat nam at lectus urna duis? <i className="icofont-simple-up"></i></a>
                                 <div id="faq1" className="collapse show" data-parent=".faq-list">
                                     <p>
@@ -252,7 +253,7 @@ const Main = () => {
                                 </div>
                             </li>
 
-                            <li  data-aos-delay="200">
+                            <li data-aos-delay="200">
                                 <a data-toggle="collapse" href="#faq2" className="collapsed">Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque? <i className="icofont-simple-up"></i></a>
                                 <div id="faq2" className="collapse" data-parent=".faq-list">
                                     <p>
@@ -261,7 +262,7 @@ const Main = () => {
                                 </div>
                             </li>
 
-                            <li  data-aos-delay="300">
+                            <li data-aos-delay="300">
                                 <a data-toggle="collapse" href="#faq3" className="collapsed">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi? <i className="icofont-simple-up"></i></a>
                                 <div id="faq3" className="collapse" data-parent=".faq-list">
                                     <p>
@@ -270,7 +271,7 @@ const Main = () => {
                                 </div>
                             </li>
 
-                            <li  data-aos-delay="400">
+                            <li data-aos-delay="400">
                                 <a data-toggle="collapse" href="#faq4" className="collapsed">Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla? <i className="icofont-simple-up"></i></a>
                                 <div id="faq4" className="collapse" data-parent=".faq-list">
                                     <p>
@@ -279,7 +280,7 @@ const Main = () => {
                                 </div>
                             </li>
 
-                            <li  data-aos-delay="500">
+                            <li data-aos-delay="500">
                                 <a data-toggle="collapse" href="#faq5" className="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i className="icofont-simple-up"></i></a>
                                 <div id="faq5" className="collapse" data-parent=".faq-list">
                                     <p>
@@ -288,7 +289,7 @@ const Main = () => {
                                 </div>
                             </li>
 
-                            <li  data-aos-delay="600">
+                            <li data-aos-delay="600">
                                 <a data-toggle="collapse" href="#faq6" className="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i className="icofont-simple-up"></i></a>
                                 <div id="faq6" className="collapse" data-parent=".faq-list">
                                     <p>
@@ -312,9 +313,9 @@ const Main = () => {
 
                         <div className="row">
 
-                            <div className="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+                            <div className="col-xl-3 col-lg-4 col-md-6" data-aos-delay="100">
                                 <div className="member">
-                                    <img src="img/team/team-1.jpg" className="img-fluid" alt="" />
+                                    <img src={imageResource['team1']} className="img-fluid" alt="" />
                                     <div className="member-info">
                                         <div className="member-info-content">
                                             <h4>Walter White</h4>
@@ -330,9 +331,9 @@ const Main = () => {
                                 </div>
                             </div>
 
-                            <div className="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+                            <div className="col-xl-3 col-lg-4 col-md-6"  data-aos-delay="200">
                                 <div className="member">
-                                    <img src="img/team/team-2.jpg" className="img-fluid" alt="" />
+                                    <img src={imageResource['team2']} className="img-fluid" alt="" />
                                     <div className="member-info">
                                         <div className="member-info-content">
                                             <h4>Sarah Jhonson</h4>
@@ -348,9 +349,9 @@ const Main = () => {
                                 </div>
                             </div>
 
-                            <div className="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+                            <div className="col-xl-3 col-lg-4 col-md-6"  data-aos-delay="300">
                                 <div className="member">
-                                    <img src="img/team/team-3.jpg" className="img-fluid" alt="" />
+                                    <img src={imageResource['team3']} className="img-fluid" alt="" />
                                     <div className="member-info">
                                         <div className="member-info-content">
                                             <h4>William Anderson</h4>
@@ -366,9 +367,9 @@ const Main = () => {
                                 </div>
                             </div>
 
-                            <div className="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+                            <div className="col-xl-3 col-lg-4 col-md-6"  data-aos-delay="400">
                                 <div className="member">
-                                    <img src="img/team/team-4.jpg" className="img-fluid" alt="" />
+                                    <img src={imageResource['team4']} className="img-fluid" alt="" />
                                     <div className="member-info">
                                         <div className="member-info-content">
                                             <h4>Amanda Jepson</h4>
@@ -397,15 +398,8 @@ const Main = () => {
                             <p>They trusted us</p>
                         </div>
 
-                        <div className="owl-carousel clients-carousel"  data-aos-delay="100">
-                            <img src="img/clients/client-1.png" alt="" />
-                            <img src="img/clients/client-2.png" alt="" />
-                            <img src="img/clients/client-3.png" alt="" />
-                            <img src="img/clients/client-4.png" alt="" />
-                            <img src="img/clients/client-5.png" alt="" />
-                            <img src="img/clients/client-6.png" alt="" />
-                            <img src="img/clients/client-7.png" alt="" />
-                            <img src="img/clients/client-8.png" alt="" />
+                        <div className="col-md-2 col-lg-4 col-md-6" >
+                            <img src={imageResource['client1']} alt="" />
                         </div>
 
                     </div>
@@ -421,7 +415,7 @@ const Main = () => {
 
                         <div className="row">
 
-                            <div className="col-lg-5 d-flex align-items-stretch"  data-aos-delay="100">
+                            <div className="col-lg-5 d-flex align-items-stretch" data-aos-delay="100">
                                 <div className="info">
                                     <div className="address">
                                         <i className="icofont-google-map"></i>
@@ -441,12 +435,12 @@ const Main = () => {
                                         <p>+1 5589 55488 55s</p>
                                     </div>
 
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameBorder="0"  allowFullScreen></iframe>
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameBorder="0" allowFullScreen></iframe>
                                 </div>
 
                             </div>
 
-                            <div className="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch"  data-aos-delay="200">
+                            <div className="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch" data-aos-delay="200">
                                 <form action="forms/contact.php" method="post" role="form" className="php-email-form">
                                     <div className="form-row">
                                         <div className="form-group col-md-6">
